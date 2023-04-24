@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file value="nanjing-heping.net.xml"/>
+        <route-files value="nanjing-heping.rou.xml"/>
+    </input>
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+    <output>
+    <write-license value="true"/>
+    <tripinfo-output value="tripinfo.xml"/>
+    <fcd-output value="fcd.xml"/>
+    </output>
+
+</configuration>
